@@ -1,3 +1,5 @@
+// Callback function
+
 let greet = (name, callback) => {
     console.log('Hello' + name);
     callback();
