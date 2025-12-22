@@ -22,14 +22,22 @@ const Games = () => {
     })
 }
 
-doHomework().then(res =>{
-    console.log(res);
-    return revision();
-}).then(res => {
-    console.log(res);
-    return Games();
-}).then(res => {
-    console.log(res);
-    // return Games();
-})
-.catch(err => console.log(err))
+const dailyRouting = async () =>{
+    try {
+        
+    } catch (error) {
+        
+    }
+}
+
+// doHomework().then(res =>{
+//     console.log(res);
+//     return revision();
+// }).then(res => {
+//     console.log(res);
+//     return Games();
+// }).then(res => {
+//     console.log(res);
+//     // return Games();
+// })
+// .catch(err => console.log(err))
