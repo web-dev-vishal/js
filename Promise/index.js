@@ -2,6 +2,22 @@
 
 // // Promise
 
+// PROMISE: An object representing the eventual completion (or failure) of an asynchronous operation.
+// Has 3 states: Pending (initial), Fulfilled (success), Rejected (failure)
+
+// RESOLVE: Function called inside Promise when operation succeeds. Passes the success value.
+
+// REJECT: Function called inside Promise when operation fails. Passes the error/reason.
+
+// .THEN(): Method to handle fulfilled Promises. Takes a callback that runs when Promise resolves.
+// Returns a new Promise, allowing chaining of multiple async operations.
+
+// .CATCH(): Method to handle rejected Promises. Takes a callback that runs when Promise is rejected.
+// Catches errors from any previous Promise in the chain.
+
+// SETTIMEOUT: Asynchronous function that executes code after a specified delay (in milliseconds).
+// Used here to simulate time-consuming operations.
+
 // // Pending : Initial state, opertion hasn't completed
 
 // // Fullfiled : Opertion succeeded, giving a resolved value
