@@ -2,8 +2,8 @@
 
 // Promise
 
-// Pending
+// Pending : Initial state, opertion hasn't completed
 
-// Fullfiled
+// Fullfiled : Opertion succeeded, giving a resolved value
 
-// Result
+// Rejected : Opertion failed, providing a reason (error) 
