@@ -1,55 +1,29 @@
-// const doHomework = () => {
-//     return new Promise((resolve) => {
-//         setTimeout(() => {
-//             resolve("Homework done✅")
-//         }, 2000); // 2 sec only
-//     })
-// }
+// ==================== DEFINITIONS ====================
 
-// const revision = () => {
-//     return new Promise((resolve) => {
-//         setTimeout(() => {
-//             resolve("Revision done✅")
-//         }, 1500); //1.5 sec only
-//     })
-// }
+// PROMISE: An object representing the eventual completion (or failure) of an asynchronous operation.
+// Has 3 states: Pending (initial), Fulfilled (success), Rejected (failure)
 
-// const Games = () => {
-//     return new Promise((resolve) => {
-//         setTimeout(() => {
-//             resolve("Played game done✅")
-//         }, 1000); //1 sec only
-//     })
-// }
+// RESOLVE: Function called inside Promise when operation succeeds. Passes the success value.
 
-// const dailyRouting = async () =>{
-//     try {
-//         let homeworkStatus = await doHomework();
-//         console.log(homeworkStatus);
+// REJECT: Function called inside Promise when operation fails. Passes the error/reason.
 
-//         let revisionStatus = await revision();
-//         console.log(revisionStatus);
+// .THEN(): Method to handle fulfilled Promises. Takes a callback that runs when Promise resolves.
+// Returns a new Promise, allowing chaining of multiple async operations.
 
-//         let gameStatus  = await Games();
-//         console.log(gameStatus);
-//     } catch (error) {
-//         console.log(error);
-//     }
-// };
+// .CATCH(): Method to handle rejected Promises. Takes a callback that runs when Promise is rejected.
+// Catches errors from any previous Promise in the chain.
 
-// dailyRouting();
+// PROMISE CHAINING: Linking multiple .then() calls sequentially. Each .then() must return a Promise
+// to pass it to the next .then(). Executes operations one after another in order.
 
-// // doHomework().then(res =>{
-// //     console.log(res);
-// //     return revision();
-// // }).then(res => {
-// //     console.log(res);
-// //     return Games();
-// // }).then(res => {
-// //     console.log(res);
-// //     // return Games();
-// // })
-// // .catch(err => console.log(err))
+// ASYNC/AWAIT: Modern syntax for handling Promises. 'async' declares an async function that returns a Promise.
+// 'await' pauses execution until Promise resolves. Makes async code look synchronous and easier to read.
+
+// TRY/CATCH: Error handling block used with async/await. 'try' contains code that might fail,
+// 'catch' handles any errors that occur in the try block.
+
+// SETTIMEOUT: Asynchronous function that executes code after a specified delay (in milliseconds).
+// Used here to simulate time-consuming operations.
 
 // Function that simulates doing homework
 // Returns a Promise that resolves after 2 seconds
