@@ -1,1 +1,2 @@
-console.log("fetching data from api");
+// console.log("fetching data from api");
+
