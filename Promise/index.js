@@ -1,1 +1,1 @@
-console.log("promise")
+console.log("it's promise")
