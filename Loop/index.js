@@ -35,7 +35,6 @@ Aryan 3
 Aryan 4
 Aryan 5
 
-*/
 
 let num = 10;
 let sum = 0;
@@ -48,4 +47,17 @@ while ( num != 0){
 
 }
 
+output : 
+Num = 10 Sum =  10
+Num = 9 Sum =  19
+Num = 8 Sum =  27
+Num = 7 Sum =  34
+Num = 6 Sum =  40
+Num = 5 Sum =  45
+Num = 4 Sum =  49
+Num = 3 Sum =  52
+Num = 2 Sum =  54
+Num = 1 Sum =  55
 
+
+*/
