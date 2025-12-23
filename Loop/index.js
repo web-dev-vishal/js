@@ -4,8 +4,9 @@
 type of loops-
 1. for loop - number of iteration that we known
 2. while loop - 
+3. do while loop - 
 
-for loop
+<------------------ for loop ---------------------->
 syntax :  
 for (let i = 1; i <= 5; i++){
     console.log("Aryan",i);
@@ -18,7 +19,7 @@ Aryan 3
 Aryan 4
 Aryan 5
 
- while loop
+<------------------ while loop ------------------->
 
 syntax:
 let i = 1;
@@ -59,5 +60,12 @@ Num = 3 Sum =  52
 Num = 2 Sum =  54
 Num = 1 Sum =  55
 
-
+<--------------------- do while loop --------------------->
 */
+
+let i = 12
+
+do{
+    console.log("Do - while")
+    i --;
+}while(i>=10);
