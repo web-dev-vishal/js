@@ -61,11 +61,16 @@ Num = 2 Sum =  54
 Num = 1 Sum =  55
 
 <--------------------- do while loop --------------------->
-*/
 
+syntax: 
 let i = 10
 
 do{
     console.log("Do - while")
     i --;
 }while(i>=10);
+
+output: 
+Do - while
+
+*/
