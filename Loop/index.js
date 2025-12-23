@@ -63,7 +63,7 @@ Num = 1 Sum =  55
 <--------------------- do while loop --------------------->
 */
 
-let i = 12
+let i = 10
 
 do{
     console.log("Do - while")
