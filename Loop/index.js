@@ -37,5 +37,15 @@ Aryan 5
 
 */
 
-let 
+let num = 10;
+let sum = 0;
+
+while ( num != 0){
+    sum += num;
+
+    console.log("Num = "+num+" Sum = ",sum );
+    num--;
+
+}
+
 
